@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA17CFDC270F195B00DACEAB /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17CFDB270F195B00DACEAB /* BusinessDetail.swift */; };
+		FA91433F27102654007AD496 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91433E27102654007AD496 /* BusinessMap.swift */; };
 		FAB23CBE270DFEB400080748 /* City_SightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB23CBD270DFEB400080748 /* City_SightsApp.swift */; };
 		FAB23CC2270DFEB600080748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB23CC1270DFEB600080748 /* Assets.xcassets */; };
 		FAB23CC5270DFEB600080748 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB23CC4270DFEB600080748 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		FA17CFDB270F195B00DACEAB /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		FA91433E27102654007AD496 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 		FAB23CBA270DFEB400080748 /* City Sights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB23CBD270DFEB400080748 /* City_SightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_SightsApp.swift; sourceTree = "<group>"; };
 		FAB23CC1270DFEB600080748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 				FA17CFDB270F195B00DACEAB /* BusinessDetail.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		FA91433D2710262C007AD496 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				FA91433E27102654007AD496 /* BusinessMap.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		FAB23CB1270DFEB400080748 = {
@@ -145,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB42915270EFF7D000FEF2C /* HomeView.swift */,
+				FA91433D2710262C007AD496 /* Map */,
 				FAB42917270F05DA000FEF2C /* List */,
 			);
 			path = Home;
@@ -248,6 +259,7 @@
 				FA17CFDC270F195B00DACEAB /* BusinessDetail.swift in Sources */,
 				FAB23CD5270E180600080748 /* BusinessSearch.swift in Sources */,
 				FAB42919270F05E8000FEF2C /* BusinessList.swift in Sources */,
+				FA91433F27102654007AD496 /* BusinessMap.swift in Sources */,
 				FAB4291D270F0A1E000FEF2C /* BusinessSection.swift in Sources */,
 				FAB23CD1270E016700080748 /* ContentModel.swift in Sources */,
 				FAB23CD8270E1A9C00080748 /* Constants.swift in Sources */,
