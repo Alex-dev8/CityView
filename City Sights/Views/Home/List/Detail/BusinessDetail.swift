@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BusinessDetail: View {
+    
     var business: Business
     
     var body: some View {
